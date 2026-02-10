@@ -65,6 +65,6 @@ function ajouter() {
 }
 ajouter();
 function supprimer(id) {
-  tab = tab.filtere((el) => el.id !== id)
+  tab = tab.filter((el) => el.id !== id)
   afficher(tab)
 }
